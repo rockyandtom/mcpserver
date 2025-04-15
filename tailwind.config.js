@@ -9,4 +9,8 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  future: {
+    enableAllBuiltIns: true,
+  },
+  strict: true,
 }; 
