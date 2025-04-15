@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function ServicesPage() {
   return (
@@ -260,11 +259,37 @@ export default function ServicesPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2">定制开发</h3>
               <p className="text-gray-600 mb-4">
-                我们提供专业的Minecraft插件定制开发服务，根据您的需求开发独特的插件，增强您的服务器功能。
+                每个Minecraft服务器都是独特的，我们提供专业的定制开发服务，根据您的需求打造属于您的独特Minecraft体验。我们的开发团队经验丰富，可以为您开发各种功能和插件。
               </p>
-              <Link href="/contact" className="text-blue-600 font-medium hover:text-blue-800">
-                联系我们了解更多 &rarr;
-              </Link>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>自定义插件开发，满足您的特殊需求</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>定制地图和世界生成</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>自定义游戏玩法和规则</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>与外部系统集成，如网站、论坛等</span>
+                </li>
+              </ul>
+              <p className="text-gray-600">
+                无论您需要什么样的自定义功能，我们都能为您实现。联系我们讨论您的想法，我们&apos;ll为您提供专业的建议和解决方案。
+              </p>
             </div>
             
             <div className="card p-6">
