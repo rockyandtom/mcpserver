@@ -110,7 +110,7 @@ export default function ServicesPage() {
                   <div className="flex items-center justify-between bg-gray-100 p-3 rounded-md">
                     <div className="flex items-center">
                       <div className="w-3 h-3 bg-gray-400 rounded-full mr-2"></div>
-                      <span>Biomes O' Plenty</span>
+                      <span>Biomes O&apos; Plenty</span>
                     </div>
                     <div className="text-sm text-blue-600">安装</div>
                   </div>
